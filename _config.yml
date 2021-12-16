@@ -1,1 +1,17 @@
-theme: jekyll-theme-cayman
+remote_theme: https://github.com/dracula/gh-pages
+title: Tong's blog
+description: Learn Java, Vue and more.
+lang: zh-CN
+github:
+  owner_name: Tong
+  owner_url: https://github.com/LiuqingDu
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+paginate: 5
